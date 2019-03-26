@@ -33,8 +33,7 @@ interface IteratorAggregate extends Traversable {
     /**
      * Retrieve an external iterator
      * @link https://php.net/manual/en/iteratoraggregate.getiterator.php
-     * @return Traversable An instance of an object implementing <b>Iterator</b> or
-     * <b>Traversable</b>
+     * @return Iterator
      * @since 5.0.0
      */
     public function getIterator();
